@@ -1,0 +1,19 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int X, Y;
+    cin >> X >> Y;
+
+    if(X > Y)
+    {
+        cout << X - Y - 1 << endl;
+    }
+    else
+    {
+        cout << Y - X - 1 << endl;
+    }
+
+    return 0;
+}
